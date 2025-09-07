@@ -4,7 +4,7 @@
     //TRABALHO SUPER TRUNFO - NÍVEL AVENTUREIRO
 
     //variáveis da carta 1 e carta 2
-    char estado1[20],estado2[20];
+    char estado1[20], estado2[20];
     char codigo1[20], codigo2[20];
     char cidade1[20], cidade2[20];
     int populacao1, populacao2;
