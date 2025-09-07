@@ -36,7 +36,7 @@
     scanf("%d", &pontosTuristicos1);
 
 
-        //Inserção dos valores cata 2
+    //Inserção dos valores cata 2
 
     printf("Digite o Estado:");
     scanf("%s", &estado2);
@@ -68,12 +68,12 @@
     float densidade2 = populacao2 / area2;
 
 
-    //Espaçamento entre linhas
+    //Inserção de 3 linhas entre a entrada dos valores e a saída de valores
     printf("\n");
     printf("\n");
     printf("\n");
     
-    //saídas da carta 1
+    //saídas dos valores calculados da carta 1
     printf("Carta 1:\n");
     printf("Estado:%s\n", estado1);
     printf("Código:%s\n", codigo1);
@@ -86,12 +86,12 @@
     printf("PIB per Capita:%.2f reais\n", percapita1);
 
 
-    //Espaçamento entre linhas
+    //Inserção de 3 linhas de separação entre os valores de saída carta 1 a carta 2
     printf("\n");
     printf("\n");
     printf("\n");
 
-    //Saídas da carta 2
+    //Saídas dos valores calculados da carta 2
     printf("Carta 2:\n");
     printf("Estado:%s\n",estado2);
     printf("Código:%s\n",codigo2);
@@ -103,7 +103,7 @@
     printf("Densidade Populacional:%.2f hab/km2\n", densidade2);
     printf("PIB per Capita:%.2f reais\n", percapita2);
 
-    //Espaçamento entre linhas
+    //Inserção de 3 linhas no final da saída de valores
     printf("\n");
     printf("\n");
     printf("\n");
