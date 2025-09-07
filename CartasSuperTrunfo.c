@@ -3,29 +3,16 @@
 
     //TRABALHO SUPER TRUNFO - NÍVEL AVENTUREIRO
 
-    //variáveis da carta 1
-    char estado1[20];
-    char codigo1[20];
-    char cidade1[20];
-    int populacao1;
-    float area1;
-    float pib1;
-    int pontosTuristicos1;
+    //variáveis da carta 1 e carta 2
+    char estado1[20],estado2[20];
+    char codigo1[20], codigo2[20];
+    char cidade1[20], cidade2[20];
+    int populacao1, populacao2;
+    float area1, area2;
+    float pib1, pib2;
+    int pontosTuristicos1, pontosTuristicos2;
 
-    //variáveis da carta 2
-    char estado2[20];
-    char codigo2[20];
-    char cidade2[20];
-    int populacao2;
-    float area2;
-    float pib2;
-    int pontosTuristicos2;
-
-       
-    
-
-    //Inserção referente a cata 1
-
+    //Inserção dos valores carta 1
 
     printf("Digite o Estado:");
     scanf("%s", &estado1);
@@ -49,7 +36,7 @@
     scanf("%d", &pontosTuristicos1);
 
 
-        //Inserção referente a cata 2
+        //Inserção dos valores cata 2
 
     printf("Digite o Estado:");
     scanf("%s", &estado2);
