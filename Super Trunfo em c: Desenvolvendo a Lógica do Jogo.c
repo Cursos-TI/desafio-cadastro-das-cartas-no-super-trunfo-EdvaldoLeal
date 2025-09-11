@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-//CÓDIGO TRABALHO TEMA 3:  Super Trunfo em c: Desenvolvendo a Lógica do Jogo 
+//CÓDIGO TRABALHO TEMA 3:  Super Trunfo em c: Desenvolvendo a Lógica do Jogo  - Nível novato
 
 
 int main(){
