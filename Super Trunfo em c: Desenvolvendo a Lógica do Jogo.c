@@ -79,7 +79,7 @@ int main(){
     printf("PIB:%.2f milhões de reais\n",pib1);
     printf("Número de Pontos Turisticos:%d\n",pontosTuristicos1);
     printf("Densidade Populacional:%.2f hab/km2\n", densidade1);
-    printf("Pib per capita:R$%.2f /habitante\n", percapita1);
+    printf("Pib per capita:R$%.2f/habitante\n", percapita1);
 
     //Imprime 3 linhas em branco
     printf("\n");
@@ -97,7 +97,7 @@ int main(){
     printf("PIB:%.2f milhões de reais\n",pib2);
     printf("Número de Pontos Turisticos:%d\n",pontosTuristicos2);
     printf("Densidade Populacional:%.2f hab/km2\n", densidade2);
-    printf("Pib per capita:R$%.2f /habitante\n", percapita2);
+    printf("Pib per capita:R$%.2f/habitante\n", percapita2);
 
     //Imprime 3 linhas em branco
     printf("\n");
@@ -109,7 +109,7 @@ int main(){
     
 if(pib1 > pib2){
     //Se a condição for verdadeira o print abaixo exibirá vitória da carta 1.
-    printf("===CARTA 1 (%s), VENCEU PELO MAIOR PIB!===\n\n", cidade1);
+    printf("===CARTA 1 (%s), VENCEU POR TER O MAIOR PIB!===\n\n", cidade1);
     // Imprime os valores do PIB para comparação
     printf("**PIB carta 1:%.2f milhões de reais.**\n", pib1); 
     printf("**PIB carta 2:%.2f milhões de reais.**\n", pib2);
@@ -121,7 +121,7 @@ if(pib1 > pib2){
 
 }else{
     //Se a condição for falsa o print abaixo exibirá vitória da carta 2.
-    printf("===CARTA 2 (%s) VENCEU PELO MAIOR PIB!===\n\n", cidade2);
+    printf("===CARTA 2 (%s) VENCEU POR TER O MAIOR PIB!===\n\n", cidade2);
     // Imprime os valores do PIB para comparação
     printf("**PIB carta 1:%.2f milhões de reais.**\n", pib1);
     printf("**PIB carta 2:%.2f milhões de reais.**\n", pib2);
