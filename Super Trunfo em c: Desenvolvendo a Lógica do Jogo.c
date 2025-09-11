@@ -1,4 +1,8 @@
 #include <stdio.h>
+
+//CÓDIGO TRABALHO TEMA 3:  Super Trunfo em c: Desenvolvendo a Lógica do Jogo 
+
+
 int main(){
     char estado1[20], estado2[20];
     char codigo1[20], codigo2[20];
